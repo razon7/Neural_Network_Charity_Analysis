@@ -10,17 +10,17 @@ The purpose of the project is to predict whether applicants will   be successful
 
 The variables that are considered to be the features for your model
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
+   EIN and NAME—Identification columns
+   APPLICATION_TYPE—Alphabet Soup application type
+   AFFILIATION—Affiliated sector of industry
+   CLASSIFICATION—Government organization classification
+   USE_CASE—Use case for funding
+   ORGANIZATION—Organization type
+   STATUS—Active status
+   INCOME_AMT—Income classification
+   SPECIAL_CONSIDERATIONS—Special consideration for application
+   ASK_AMT—Funding amount requested
+   IS_SUCCESSFUL—Was the money used effectively
 
 
 The variable(s) that are neither targets nor features,  removed from the input data
@@ -38,6 +38,7 @@ The variable(s) that are neither targets nor features,  removed from the input d
  ** Attempts done three times and following are the end points **
  
 Attempt:1
+
  Hidden layer one: tanh type - 80 neurons
  Hidden layer two: relu type - 30 neurons
  Activation: sigmoid
@@ -45,6 +46,7 @@ Attempt:1
  Overall accuracy average: 72.79%
  
 Attempt 2:
+
  Dropped noisy data of ASK_AMT
  Hidden layer one: tanh type - 80 neurons
  Hidden layer two: relu type - 50 neurons
